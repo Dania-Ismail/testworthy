@@ -19,6 +19,7 @@ it('should Create a Project a', () => {
   cy.get('#spanSelectingUserName_2340').click()
   cy.get('#btnEditProject').click()
   cy.get(':nth-child(2) > .row > .col-sm-5 > .custom-control > label > .text > [data-placement="bottom"]').contains('test2')
+  // this is new line
 
 })
 
