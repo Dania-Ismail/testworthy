@@ -6,7 +6,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
   return false
   });
 
-it.only('should login to the application', () => {
+it.only('should login to the application 1', () => {
 
   cy.visit('https://testworthy.us')
   cy.get(':nth-child(6) > .nav-link').click()
